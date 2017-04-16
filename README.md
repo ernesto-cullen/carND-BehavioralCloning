@@ -40,6 +40,27 @@ My project includes the following files:
 
 I did a lot of trials, and arrived at three different network architectures that completed the 1st circuit. I include model2.py and model2.h5 as well as model3.py and model3.h5 for those other networks, and did a comparison of results from the three of them.
 
+For model 1:
+* `model.py` model 1 and training code
+* `model.h5` model 1 trained with track 1 images, saved in h5 format
+* `model1_track2.h5` model 1 trained with track 2 images
+* `video.mp4` result of autonomous driving in track 1 with model 1 trained with track 1 only
+
+For model 2: 
+* `model2.py` model 2 and training code
+* `model2.h5` model 2 trained with track 1 only, saved in h5 format
+* `model2_track2.h5` model 2 trained with track 2 only
+* `model2_both.h5` model 2 trained with both track 1 and 2 data
+* `video2.mp4` result of autonomous driving in track 1 with model 2
+* `both_tr1.mp4` result of autonomous driving in track 1 with model 2 trained with data from both tracks
+* `both_tr2.mp4` result of autonomous driving in track 2 with model 2 trained with data from both tracks
+
+For model 3: 
+* `model3.py` model and training code
+* `model3.h5` model 3 trained with track 1, saved in h5 format
+* `video3.mp4` result of autonomous driving in track 1 with model 3
+
+
 
 #### 2. Submission includes functional code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
